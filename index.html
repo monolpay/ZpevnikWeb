@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zpěvníky - File Browser</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; }
+        ul { padding-left: 20px; }
+        li { margin: 8px 0; }
+        a { text-decoration: none; color: #0066cc; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <h1>Zpěvníky</h1>
+    <ul id="file-list">Načítám soubory...</ul>
+
+    <p><a href="../index.html">← Zpět na hlavní stránku</a></p>
+
+    <script>
+        // Replace with your GitHub Username and Repository name
+        const username = 'monolpay';
+        const repo = 'Zpevnik';
+        const path = 'zpevniky'; // folder path in repo
+
+        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/${path}`;
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                const listElement = document.getElementById('file-list');
+                listElement.innerHTML = '';
+                
+                if (!Array.isArray(data)) {
+                    listElement.innerHTML = '<li>Chyba při načítání souborů.</li>';
+                    return;
+                }
+
+                data.forEach(file => {
+                    // Skip index.html itself from showing up in the list
+                    if (file.name === 'index.html') return;
+
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = file.name+"/list.html";
+                    a.textContent = file.name;
+                    li.appendChild(a);
+                    listElement.appendChild(li);
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('file-list').innerHTML = '<li>Nelze načíst soubory.</li>';
+            });
+    </script>
+</body>
+</html>

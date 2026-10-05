@@ -17,8 +17,6 @@
     <h1>Zpěvníky</h1>
     <ul id="file-list">Načítám soubory...</ul>
 
-    <p><a href="../index.html">← Zpět na hlavní stránku</a></p>
-
     <script>
         // Replace with your GitHub Username and Repository name
         const username = 'monolpay';
@@ -44,7 +42,7 @@
 
                     const li = document.createElement('li');
                     const a = document.createElement('a');
-                    a.href = file.name+"/list.html";
+                    a.href = "./list.html?zpevnik="+file.name;
                     a.textContent = file.name;
                     li.appendChild(a);
                     listElement.appendChild(li);

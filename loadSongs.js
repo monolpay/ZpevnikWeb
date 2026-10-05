@@ -1,10 +1,9 @@
 // Replace with your GitHub Username and Repository name
         const username = 'monolpay';
         const repo = 'Zpevnik';
-        var loc = window.location.pathname;
-        //3 funguje na githubu a 2 na localhost
-        var dir = loc.split("/")[3]
-        const zpevnik = dir
+        
+        const url = new URL(window.location.href)
+        const zpevnik = url.searchParams.get("zpevnik")
 
         const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/zpevniky/${zpevnik}`;
 

@@ -23,13 +23,9 @@
                 }
 
                 data.forEach(file => {
-                    // Skip index.html itself from showing up in the list
-                    if (file.name === 'index.html') return;
-                    if (file.name === 'obsah') return;
-
                     const li = document.createElement('li');
                     const a = document.createElement('a');
-                    a.href = file.name;
+                    a.href = "song.html?zpevnik="+zpevnik+"&pisen="+file.name;
                     a.textContent = file.name;
                     li.appendChild(a);
                     listElement.appendChild(li);

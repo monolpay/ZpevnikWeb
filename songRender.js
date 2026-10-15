@@ -30,13 +30,6 @@ const username = 'monolpay';
         renderer.showChords = true;
         renderer.chordPosition = 'right';
         document.body.appendChild(renderer)
-
-
-
-
-         const debug = document.createElement("p")
-    debug.innerHTML = fileText
-    document.body.appendChild(debug)
     })
     .catch(error => console.error(error));
 

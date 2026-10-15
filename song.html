@@ -6,31 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-    const username = 'monolpay';
-        const repo = 'Zpevnik';
-        
-        const url = new URL(window.location.href)
-        const zpevnik = url.searchParams.get("zpevnik")
-        const pisen = url.searchParams.get("pisen")
-
-        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/zpevniky/${zpevnik}/${pisen}`;
-
-        var answer = fetch(apiUrl, {
-    headers: {
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'Web-Browser-App' // GitHub toto vyžaduje
-    }})
-    .then(response => response.json())
-    .then(data => {
-        
-    })
-
-console.log(answer)
-
-let p = document.createElement("p")
-p.textContent = answer
-</script>    
+    <script type="module" src="songRender.js">
+    </script>    
 </body>
 </html>
 

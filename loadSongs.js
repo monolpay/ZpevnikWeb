@@ -23,6 +23,10 @@
                 }
 
                 data.forEach(file => {
+                    if(file.name == "obsah"){
+                        return;
+                    }
+
                     const li = document.createElement('li');
                     const a = document.createElement('a');
                     a.href = "song.html?zpevnik="+zpevnik+"&pisen="+file.name;

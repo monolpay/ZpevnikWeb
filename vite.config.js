@@ -2,7 +2,8 @@ import { defineConfig } from "vite";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const path = fileURLToPath(new URL(".", import.meta.url))+"/app/html/";
+const root = fileURLToPath(new URL(".", import.meta.url))
+const path = root+"/app/html/";
 
 export default defineConfig({
   base: "/ZpevnikWeb/",
@@ -10,7 +11,7 @@ export default defineConfig({
     outDir: "docs",
     rollupOptions: {
       input: {
-        index: resolve(path, "index.html"),
+        index: resolve(root, "index.html"),
         list: resolve(path, "list.html"),
         song: resolve(path, "song.html"),
       },

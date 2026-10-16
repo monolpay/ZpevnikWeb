@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zpěvníky - File Browser</title>
+    <title>RR Zpěvník</title>
     <style>body{max-width:600px;margin:40px auto;padding:0 20px;font-family:sans-serif}ul{padding-left:20px}li{margin:8px 0}a{color:#06c;text-decoration:none}a:hover{text-decoration:underline}</style>
 </head>
 <body>
 
     <h1>Zpěvníky</h1>
     <h2>Tato stránka je ve vývoji!</h2>
-    <p>Tato stránka slouží převážně k náhledu obsahu zpěvníků. <b>Není možné zde upravovat nebo přidávat písně.</b> Tyto funkce přijdou později.</p>
+    <p>Tato stránka slouží převážně k náhledu obsahu zpěvníků. <b>Není možné zde upravovat nebo přidávat písně.</b> Tyto funkce "přijdou později."</p>
     <ul id="file-list">Načítám soubory...</ul>
 
     <script>
@@ -38,7 +38,7 @@
 
                     const li = document.createElement('li');
                     const a = document.createElement('a');
-                    a.href = "./list.html?zpevnik="+file.name;
+                    a.href = "./app/html/list.html?zpevnik="+file.name;
                     a.textContent = file.name;
                     li.appendChild(a);
                     listElement.appendChild(li);
@@ -48,8 +48,6 @@
                 console.error('Error:', error);
                 document.getElementById('file-list').innerHTML = '<li>Nelze načíst soubory.</li>';
             });
-
-
             
     </script>
 </body>

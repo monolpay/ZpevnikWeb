@@ -9,6 +9,8 @@ const username = 'monolpay';
 
         const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/zpevniky/${zpevnik}/${pisen}`;
 
+        let songTitle = ""
+
         var answer = fetch(apiUrl, {
     headers: {
         Accept: "application/vnd.github+json"
@@ -30,7 +32,23 @@ const username = 'monolpay';
         renderer.showChords = true;
         renderer.chordPosition = 'right';
         document.body.appendChild(renderer)
+
+        fileText.replaceAll(" ", "")
+        let titlePosition = fileText.search("{title:") + 7;
+        let char = fileText[titlePosition];
+
+        let i = 1;
+        while(char != "}"){
+            songTitle += char;
+            char = fileText[titlePosition + i]
+            i++;
+        }
+
     })
     .catch(error => console.error(error));
+
+
+    const title = document.getElementsByTagName("title")[0]
+    title.innerHTML = songTitle
 
    

@@ -1,0 +1,41 @@
+:root {
+    --rr-navy: #17324D;
+    --rr-blue: #2E6388;
+    --rr-green: #426247;
+    --rr-red: #B83A32;
+    --rr-gold: #D4A33B;
+    --rr-khaki: #C8B783;
+    --rr-paper: #F5F2E8;
+    --rr-ink: #252B27;
+}
+
+chordpro-renderer {
+  /* Main component colors */
+  --component-bg: var(--rr-navy);
+  --component-text: #eee;
+
+  /* Song viewer area */
+  --viewer-bg: var(--rr-paper);
+  --viewer-text: var(--rr-ink);
+
+  /* Chords and content */
+  --chord-color: var(--rr-ink);
+  --chord-weight: 700;
+  --header-color: var(--rr-green);
+  --header-size: 1.5em;
+
+  /* UI controls */
+  --button-bg: var(--rr-gold);
+  --button-hover-bg: var(--rr-green);
+  --mode-toggle-bg: var(--rr-gold);
+  --mode-btn-active-bg: var(--rr-red);
+  --mode-btn-hover-bg: var(--rr-green);
+
+  /* Chord charts section */
+  --chord-charts-bg: var(--rr-navy);
+  --chord-charts-border: var(--rr-navy);
+
+  /* Chord diagram labels */
+  --chord-label-color: #eee;
+  --chord-label-size: 0.85rem;
+}

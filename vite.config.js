@@ -9,6 +9,7 @@ export default defineConfig({
   base: "/ZpevnikWeb/",
   build: {
     outDir: "docs",
+    assetsInlineLimit: 0,
     rollupOptions: {
       input: {
         index: resolve(root, "index.html"),

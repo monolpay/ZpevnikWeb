@@ -2,7 +2,8 @@
     --none: rgba(0,0,0,0)
 }
 
-body * {
+@media print {
+    body * {
     display: none;
 }
 
@@ -35,3 +36,5 @@ chordpro-renderer {
   --chord-label-color: var(--rr-ink);
   --chord-label-size: 0.85rem;
 }
+}
+

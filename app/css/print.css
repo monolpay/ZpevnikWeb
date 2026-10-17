@@ -1,0 +1,37 @@
+:root {
+    --none: rgba(0,0,0,0)
+}
+
+body * {
+    display: none;
+}
+
+#songPrint, #songPrint *{
+    display: inline;
+}
+
+.chord-sheet-header {
+    display: none;
+}
+
+chordpro-renderer {
+  --component-text: white;
+
+  /* Song viewer area */
+  --viewer-bg: white;
+  --viewer-text: var(--rr-ink);
+
+  /* Chords and content */
+  --chord-color: var(--rr-ink);
+  --chord-weight: 700;
+  --header-color: var(--rr-green);
+  --header-size: 1.5em;
+
+  /* Chord charts section */
+  --chord-charts-bg: white;
+  --chord-charts-border: var(--none);
+
+  /* Chord diagram labels */
+  --chord-label-color: var(--rr-ink);
+  --chord-label-size: 0.85rem;
+}

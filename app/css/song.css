@@ -39,3 +39,7 @@ chordpro-renderer {
   --chord-label-color: #eee;
   --chord-label-size: 0.85rem;
 }
+
+#songPrint {
+  display: none;
+}

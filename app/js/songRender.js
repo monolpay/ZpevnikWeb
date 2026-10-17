@@ -19,7 +19,31 @@ class Song {
     this.renderer.instrument = "guitar";
     this.renderer.showChords = false;
     this.renderer.chordPosition = "right";
-    document.body.appendChild(this.renderer);
+    
+    let songDiv = document.getElementById("song");
+    songDiv.appendChild(this.renderer);
+
+    let printDiv = document.getElementById("songPrint");
+    this.printRenderer = document.createElement("chordpro-renderer");
+    this.printRenderer.content = content;
+    this.printRenderer.instrument = this.renderer.instrument;
+    this.printRenderer.showChords = this.renderer.showChords;
+    printDiv.appendChild(this.printRenderer)
+
+    this.renderer.addEventListener('instrument-changed', (e) =>{
+      this.printRenderer.instrument = this.renderer.instrument
+    })
+
+   const printStyle = document.createElement("style");
+   printStyle.textContent = `
+     @media print {
+       .chord-sheet-header {
+         display: none !important;
+       }
+     }
+   `;
+   this.printRenderer.shadowRoot.appendChild(printStyle);
+
   }
 
   static async load(url) {
@@ -44,9 +68,12 @@ class Song {
 try {
   const song = await Song.load(apiUrl);
   document.title = `${song.title} - RR Zpěvník`;
+
+  
 } catch (error) {
   console.error(error);
 }
 
 const back = document.getElementById("back");
 back.href = './list?='+zpevnik
+

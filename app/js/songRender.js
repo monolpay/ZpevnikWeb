@@ -1,13 +1,9 @@
 import "@parent-tobias/chordpro-renderer";
-
-const username = "monolpay";
-const repo = "Zpevnik";
+import { loadCatalog } from "./data.js";
 
 const url = new URL(window.location.href);
 const zpevnik = url.searchParams.get("zpevnik");
 const pisen = url.searchParams.get("pisen");
-
-const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/zpevniky/${zpevnik}/${pisen}`;
 
 class Song {
   constructor(content) {
@@ -46,34 +42,27 @@ class Song {
 
   }
 
-  static async load(url) {
-    const response = await fetch(url, {
-      headers: { Accept: "application/vnd.github+json" },
-    });
-
-    if (!response.ok) {
-      throw new Error(`GitHub API error: ${response.status}`);
-    }
-
-    const data = await response.json();
-    const bytes = Uint8Array.from(atob(data.content), char =>
-      char.charCodeAt(0),
-    );
-    const content = new TextDecoder().decode(bytes);
-
-    return new Song(content);
-  }
 }
 
 try {
-  const song = await Song.load(apiUrl);
-  document.title = `${song.title} - RR Zpěvník`;
+  const catalog = await loadCatalog();
+  const book = catalog.zpevniky.find((entry) => entry.name === zpevnik);
+  const songData = book?.songs.find((entry) => entry.name === pisen);
 
-  
+  if (!songData) {
+    throw new Error(`Píseň "${pisen ?? ""}" nebyla nalezena.`);
+  }
+
+  const song = new Song(songData.content);
+  document.title = `${song.title} - RR Zpěvník`;
 } catch (error) {
   console.error(error);
+  document.getElementById("song").textContent = "Nelze načíst píseň.";
 }
 
 const back = document.getElementById("back");
-back.href = './list?='+zpevnik
-
+if (back) {
+  const backUrl = new URL("./list.html", window.location.href);
+  if (zpevnik) backUrl.searchParams.set("zpevnik", zpevnik);
+  back.href = backUrl;
+}

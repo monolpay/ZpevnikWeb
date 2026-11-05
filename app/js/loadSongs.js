@@ -1,41 +1,32 @@
-// Replace with your GitHub Username and Repository name
-        const username = 'monolpay';
-        const repo = 'Zpevnik';
-        
-        const url = new URL(window.location.href)
-        const zpevnik = url.searchParams.get("zpevnik")
+import { loadCatalog } from "./data.js";
 
-        const apiUrl = `https://api.github.com/repos/${username}/${repo}/contents/zpevniky/${zpevnik}`;
+const params = new URLSearchParams(window.location.search);
+const zpevnik = params.get("zpevnik");
+const listElement = document.getElementById("file-list");
 
-        fetch(apiUrl, {
-    headers: {
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'Web-Browser-App' // GitHub toto vyžaduje
-    }})
-            .then(response => response.json())
-            .then(data => {
-                const listElement = document.getElementById('file-list');
-                listElement.innerHTML = '';
-                
-                if (!Array.isArray(data)) {
-                    listElement.innerHTML = '<li>Chyba při načítání souborů.</li>';
-                    return;
-                }
+try {
+  const catalog = await loadCatalog();
+  const book = catalog.zpevniky.find((entry) => entry.name === zpevnik);
 
-                data.forEach(file => {
-                    if(file.name == "obsah"){
-                        return;
-                    }
+  if (!book) {
+    throw new Error(`Zpěvník "${zpevnik ?? ""}" nebyl nalezen.`);
+  }
 
-                    const li = document.createElement('li');
-                    const a = document.createElement('a');
-                    a.href = "song.html?zpevnik="+zpevnik+"&pisen="+file.name;
-                    a.textContent = file.name;
-                    li.appendChild(a);
-                    listElement.appendChild(li);
-                });
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById('file-list').innerHTML = '<li>Nelze načíst soubory.</li>';
-            });
+  listElement.replaceChildren();
+  for (const song of book.songs) {
+    if (song.name === "obsah") continue;
+
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    const url = new URL("./song.html", window.location.href);
+    url.searchParams.set("zpevnik", book.name);
+    url.searchParams.set("pisen", song.name);
+    link.href = url;
+    link.textContent = song.name;
+    item.append(link);
+    listElement.append(item);
+  }
+} catch (error) {
+  console.error("Unable to load songs:", error);
+  listElement.textContent = "Nelze načíst písně.";
+}

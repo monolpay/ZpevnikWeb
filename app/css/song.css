@@ -40,3 +40,6 @@ chordpro-renderer {
   --chord-label-size: 0.85rem;
 }
 
+#song {
+  width: fit-content;
+}

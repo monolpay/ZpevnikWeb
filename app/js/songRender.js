@@ -19,6 +19,28 @@ class Song {
     let songDiv = document.getElementById("song");
     songDiv.appendChild(this.renderer);
 
+    //AI stuff
+    const responsiveStyle = document.createElement("style");
+    responsiveStyle.textContent = `
+      .chord-sheet-viewer[data-mode="html"] {
+        white-space: normal;
+      }
+
+      .chord-sheet-viewer[data-mode="html"] .row {
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+
+      .chord-sheet-viewer[data-mode="html"] .column,
+      .chord-sheet-viewer[data-mode="html"] .lyrics {
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+    `;
+    this.renderer.shadowRoot.appendChild(responsiveStyle);
+    //End of AI stuff 
+
+
     let printDiv = document.getElementById("songPrint");
     this.printRenderer = document.createElement("chordpro-renderer");
     this.printRenderer.content = content;

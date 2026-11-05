@@ -1146,10 +1146,25 @@ Or set the song key before changing key:
         width: 100%;
       }
     }
-  `,Ed([Sd({type:String})],Dd.prototype,`content`,2),Ed([Sd({type:String})],Dd.prototype,`instrument`,2),Ed([Sd({type:Boolean,attribute:`show-chords`})],Dd.prototype,`showChords`,2),Ed([Sd({type:String,attribute:`chord-position`})],Dd.prototype,`chordPosition`,2),Ed([Sd({type:String})],Dd.prototype,`format`,2),Ed([Sd({attribute:!1})],Dd.prototype,`additionalInstruments`,2),Ed([Sd({attribute:!1})],Dd.prototype,`chordOverrides`,2),Ed([Cd()],Dd.prototype,`_mode`,2),Ed([Cd()],Dd.prototype,`_showChordsInternal`,2),Ed([Cd()],Dd.prototype,`_selectedInstrument`,2),Dd=Ed([Xu(`chordpro-renderer`)],Dd);var Od=new URL(window.location.href),kd=Od.searchParams.get(`zpevnik`),Ad=Od.searchParams.get(`pisen`),jd=class{constructor(e){this.content=e,this.title=e.match(/\{title:\s*([^}]+)\}/i)?.[1].trim()??``,this.renderer=document.createElement(`chordpro-renderer`),this.renderer.content=e,this.renderer.instrument=`guitar`,this.renderer.showChords=!1,this.renderer.chordPosition=`right`,document.getElementById(`song`).appendChild(this.renderer);let t=document.getElementById(`songPrint`);this.printRenderer=document.createElement(`chordpro-renderer`),this.printRenderer.content=e,this.printRenderer.instrument=this.renderer.instrument,this.printRenderer.showChords=this.renderer.showChords,t.appendChild(this.printRenderer),this.renderer.addEventListener(`instrument-changed`,e=>{this.printRenderer.instrument=this.renderer.instrument});let n=document.createElement(`style`);n.textContent=`
+  `,Ed([Sd({type:String})],Dd.prototype,`content`,2),Ed([Sd({type:String})],Dd.prototype,`instrument`,2),Ed([Sd({type:Boolean,attribute:`show-chords`})],Dd.prototype,`showChords`,2),Ed([Sd({type:String,attribute:`chord-position`})],Dd.prototype,`chordPosition`,2),Ed([Sd({type:String})],Dd.prototype,`format`,2),Ed([Sd({attribute:!1})],Dd.prototype,`additionalInstruments`,2),Ed([Sd({attribute:!1})],Dd.prototype,`chordOverrides`,2),Ed([Cd()],Dd.prototype,`_mode`,2),Ed([Cd()],Dd.prototype,`_showChordsInternal`,2),Ed([Cd()],Dd.prototype,`_selectedInstrument`,2),Dd=Ed([Xu(`chordpro-renderer`)],Dd);var Od=new URL(window.location.href),kd=Od.searchParams.get(`zpevnik`),Ad=Od.searchParams.get(`pisen`),jd=class{constructor(e){this.content=e,this.title=e.match(/\{title:\s*([^}]+)\}/i)?.[1].trim()??``,this.renderer=document.createElement(`chordpro-renderer`),this.renderer.content=e,this.renderer.instrument=`guitar`,this.renderer.showChords=!1,this.renderer.chordPosition=`right`,document.getElementById(`song`).appendChild(this.renderer);let t=document.createElement(`style`);t.textContent=`
+      .chord-sheet-viewer[data-mode="html"] {
+        white-space: normal;
+      }
+
+      .chord-sheet-viewer[data-mode="html"] .row {
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+
+      .chord-sheet-viewer[data-mode="html"] .column,
+      .chord-sheet-viewer[data-mode="html"] .lyrics {
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+    `,this.renderer.shadowRoot.appendChild(t);let n=document.getElementById(`songPrint`);this.printRenderer=document.createElement(`chordpro-renderer`),this.printRenderer.content=e,this.printRenderer.instrument=this.renderer.instrument,this.printRenderer.showChords=this.renderer.showChords,n.appendChild(this.printRenderer),this.renderer.addEventListener(`instrument-changed`,e=>{this.printRenderer.instrument=this.renderer.instrument});let r=document.createElement(`style`);r.textContent=`
      @media print {
        .chord-sheet-header {
          display: none !important;
        }
      }
-   `,this.printRenderer.shadowRoot.appendChild(n)}};try{let t=(await e()).zpevniky.find(e=>e.name===kd)?.songs.find(e=>e.name===Ad);if(!t)throw Error(`Píseň "${Ad??``}" nebyla nalezena.`);let n=new jd(t.content);document.title=`${n.title} - RR Zpěvník`}catch(e){console.error(e),document.getElementById(`song`).textContent=`Nelze načíst píseň.`}var Md=document.getElementById(`back`);if(Md){let e=new URL(`./list.html`,window.location.href);kd&&e.searchParams.set(`zpevnik`,kd),Md.href=e}
+   `,this.printRenderer.shadowRoot.appendChild(r)}};try{let t=(await e()).zpevniky.find(e=>e.name===kd)?.songs.find(e=>e.name===Ad);if(!t)throw Error(`Píseň "${Ad??``}" nebyla nalezena.`);let n=new jd(t.content);document.title=`${n.title} - RR Zpěvník`}catch(e){console.error(e),document.getElementById(`song`).textContent=`Nelze načíst píseň.`}var Md=document.getElementById(`back`);if(Md){let e=new URL(`./list.html`,window.location.href);kd&&e.searchParams.set(`zpevnik`,kd),Md.href=e}

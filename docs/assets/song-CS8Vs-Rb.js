@@ -1163,8 +1163,53 @@ Or set the song key before changing key:
       }
     `,this.renderer.shadowRoot.appendChild(t);let n=document.getElementById(`songPrint`);this.printRenderer=document.createElement(`chordpro-renderer`),this.printRenderer.content=e,this.printRenderer.instrument=this.renderer.instrument,this.printRenderer.showChords=this.renderer.showChords,n.appendChild(this.printRenderer),this.renderer.addEventListener(`instrument-changed`,e=>{this.printRenderer.instrument=this.renderer.instrument});let r=document.createElement(`style`);r.textContent=`
      @media print {
+       :host {
+         --viewer-padding: 0;
+         --viewer-text-size: 10pt;
+         --header-size: 1.1em;
+         --row-line-height: 1.3;
+         --paragraph-spacing: 0.25em;
+         --chord-spacing: 4px;
+       }
+
        .chord-sheet-header {
          display: none !important;
+       }
+
+       .songsheet-panel {
+         height: auto !important;
+       }
+
+       .content-area,
+       .main-content {
+         display: block;
+         overflow: visible;
+       }
+
+       .chord-sheet-viewer {
+         white-space: normal !important;
+         overflow: visible !important;
+         width: 100% !important;
+         max-width: 100% !important;
+         columns: 2 16rem;
+         column-gap: 1.5cm;
+         column-fill: balance;
+       }
+
+       .chord-sheet-viewer[data-mode="html"] .row {
+         display: block;
+         flex-wrap: wrap;
+         break-inside: avoid;
+         white-space: normal;
+       }
+
+       .chord-sheet-viewer[data-mode="html"] .paragraph,
+       .chord-sheet-viewer[data-mode="html"] .column,
+       .chord-sheet-viewer[data-mode="html"] .lyrics,
+       .chord-sheet-viewer[data-mode="html"] .chord {
+         break-inside: avoid;
+         overflow-wrap: anywhere;
+         word-break: break-word;
        }
      }
    `,this.printRenderer.shadowRoot.appendChild(r)}};try{let t=(await e()).zpevniky.find(e=>e.name===kd)?.songs.find(e=>e.name===Ad);if(!t)throw Error(`Píseň "${Ad??``}" nebyla nalezena.`);let n=new jd(t.content);document.title=`${n.title} - RR Zpěvník`}catch(e){console.error(e),document.getElementById(`song`).textContent=`Nelze načíst píseň.`}var Md=document.getElementById(`back`);if(Md){let e=new URL(`./list.html`,window.location.href);kd&&e.searchParams.set(`zpevnik`,kd),Md.href=e}

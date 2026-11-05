@@ -1,9 +1,32 @@
 import "@parent-tobias/chordpro-renderer";
+import rendererStylesUrl from "../css/song.css?url";
 import { loadCatalog } from "./data.js";
 
 const url = new URL(window.location.href);
 const zpevnik = url.searchParams.get("zpevnik");
 const pisen = url.searchParams.get("pisen");
+
+function addRendererStyles(renderer) {
+  const stylesheet = document.createElement("link");
+  stylesheet.rel = "stylesheet";
+  stylesheet.href = rendererStylesUrl;
+  renderer.shadowRoot.appendChild(stylesheet);
+}
+
+function fitSongForPrint(renderer) {
+  const viewer = renderer.shadowRoot.querySelector(".chord-sheet-viewer");
+  if (!viewer) return;
+
+  const maxPageHeight = (297 - 16) * 96 / 25.4;
+  renderer.classList.remove("print-small", "print-columns");
+
+  if (viewer.getBoundingClientRect().height <= maxPageHeight) return;
+
+  renderer.classList.add("print-small");
+  if (viewer.getBoundingClientRect().height > maxPageHeight) {
+    renderer.classList.add("print-columns");
+  }
+}
 
 class Song {
   constructor(content) {
@@ -18,28 +41,7 @@ class Song {
     
     let songDiv = document.getElementById("song");
     songDiv.appendChild(this.renderer);
-
-    //AI stuff
-    const responsiveStyle = document.createElement("style");
-    responsiveStyle.textContent = `
-      .chord-sheet-viewer[data-mode="html"] {
-        white-space: normal;
-      }
-
-      .chord-sheet-viewer[data-mode="html"] .row {
-        flex-wrap: wrap;
-        max-width: 100%;
-      }
-
-      .chord-sheet-viewer[data-mode="html"] .column,
-      .chord-sheet-viewer[data-mode="html"] .lyrics {
-        min-width: 0;
-        overflow-wrap: anywhere;
-      }
-    `;
-    this.renderer.shadowRoot.appendChild(responsiveStyle);
-    //End of AI stuff 
-
+    addRendererStyles(this.renderer);
 
     let printDiv = document.getElementById("songPrint");
     this.printRenderer = document.createElement("chordpro-renderer");
@@ -47,20 +49,19 @@ class Song {
     this.printRenderer.instrument = this.renderer.instrument;
     this.printRenderer.showChords = this.renderer.showChords;
     printDiv.appendChild(this.printRenderer)
+    addRendererStyles(this.printRenderer);
 
     this.renderer.addEventListener('instrument-changed', (e) =>{
       this.printRenderer.instrument = this.renderer.instrument
     })
 
-   const printStyle = document.createElement("style");
-   printStyle.textContent = `
-     @media print {
-       .chord-sheet-header {
-         display: none !important;
-       }
-     }
-   `;
-   this.printRenderer.shadowRoot.appendChild(printStyle);
+    window.addEventListener("beforeprint", () => {
+      fitSongForPrint(this.printRenderer);
+    });
+
+    window.addEventListener("afterprint", () => {
+      this.printRenderer.classList.remove("print-small", "print-columns");
+    });
 
   }
 

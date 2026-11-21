@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T10:25:11.059Z",
+  "generatedAt": "2026-11-21T20:47:41.403Z",
   "repo": "monolpay/Zpevnik",
   "zpevniky": [
     {
@@ -7,24 +7,24 @@
       "path": "zpevniky/anglicky",
       "songs": [
         {
-          "name": "Good good Father.unfinished",
-          "path": "zpevniky/anglicky/Good good Father.unfinished",
-          "content": ""
+          "name": "Good good Father.txt",
+          "path": "zpevniky/anglicky/Good good Father.txt",
+          "content": "{title: Good good Father}\n{artist: Chris Tomlin}\n\n{start_of_verse}\n1. [A]I've heard a [A4]thousand [A]stories\nOf what they [Asus]think You're [A]like\nBut I've heard the [A4]tender [A]whisper\nOf love in the [A4]dead of [A]night\nAnd You [D2]tell me [A/C#]that You're pleased\nAnd that [Bm7]I'm never a[E]lone\n{end_of_verse}\n\n{start_of_chorus}\nR: You're a good, good [D2]Father, \nIt's who You are, [A/C#]\nit's who You are, [Bm7] \nIt's who You [E4]are\nAnd I'm loved by [D2]You\nIt's who I am, [A/C#] \nit's who I am [Bm7] \nIt's who I [E4]am\n{end_of_chorus}\n\n{start_of_verse}\n2. Oh and [A]I've seen many searching for\nAnswers far and wide  \nBut I know we're all searching for answers\nonly You provide  \nCause You [D2]know just [A/C#]what we need\nBefore [Bm7]we say a [E]word\n{end_of_verse}\n\n{start_of_bridge}\nB: Because You are [D2] perfect \nIn all of Your [F#m7]ways\nYou are [Bm7]\nperfect in all of Your [A]ways\nYou are [D2] perfect \nIn all of Your [F#m7]ways\nTo [E]us\n{end_of_bridge}\n\n{start_of_verse}\n3.  Oh this [A] Love so undeniable\nI, I can hardly speak\nPeace so unexplainable\nI, I can hardly think\nAs You [D2]call me, [A/C#]deeper still\nAs You [Bm7]call me [A/C#]deeper still \nAs You [D2]call me, [A/C#]deeper still\nInto [Bm7]love, love, [E]love\n{end_of_verse}"
         },
         {
           "name": "How He loves us.txt",
           "path": "zpevniky/anglicky/How He loves us.txt",
-          "content": "{title: How He loves us}\n{artist: David Crowder}\n\n{start_of_verse}\n[C]He is jealous for me\n[Am7]Love's like a hurricane, I am a tree\n[G]Bending beneath the weight of his wind and [F]mercy.\nWhen [C]all of a sudden,\nI am unaware of these [Am7]afflictions eclipsed by glory,\nAnd I [G]realize just how beautiful You are,\nAnd how [F]great Your affections are for me.\n{end_of_verse}\n\n{start_of_prechorus}\n[C]Oh, how he loves us [Am7]so,\nOh, how he [G]loves us,\nHow he loves us [F]so.\n{end_of_prechorus}\n\n{start_of_chorus}\nYea he [C]loves us,\nOh how he [Am7]loves us,\nOh how he [G]loves us,\nOh how he [F]loves.\n{end_of_chorus}\n\n{start_of_bridge}\nSo [C]we are his portion and he is our prize,\n[Am7]Drawn to redemption by the grace in his eyes,\nIf [G]grace is an ocean we're all [F]sinking.\nSo [C]heaven meets earth like an unforeseen kiss,\nAnd my [Am7]heart turns violently inside of my chest.\nI [G]don't have time to maintain these regrets\n when I [F]think about the way...\n{end_of_bridge}"
+          "content": "{title: How He loves us}\n{artist: David Crowder}\n\n{start_of_verse}\n1. [C]He is jealous for me\n[Am7]Love's like a hurricane, I am a tree\n[G]Bending beneath the weight of his wind and [F]mercy.\nWhen [C]all of a sudden,\nI am unaware of these [Am7]afflictions eclipsed by glory,\nAnd I [G]realize just how beautiful You are,\nAnd how [F]great Your affections are for me.\n{end_of_verse}\n\n{start_of_prechorus}\nPre: [C]Oh, how he loves us [Am7]so,\nOh, how he [G]loves us,\nHow he loves us [F]so.\n{end_of_prechorus}\n\n{start_of_chorus}\nR: Yea he [C]loves us,\nOh how he [Am7]loves us,\nOh how he [G]loves us,\nOh how he [F]loves.\n{end_of_chorus}\n\n{start_of_bridge}\nB: So [C]we are his portion and he is our prize,\n[Am7]Drawn to redemption by the grace in his eyes,\nIf [G]grace is an ocean we're all [F]sinking.\nSo [C]heaven meets earth like an unforeseen kiss,\nAnd my [Am7]heart turns violently inside of my chest.\nI [G]don't have time to maintain these regrets\n when I [F]think about the way...\n{end_of_bridge}"
         },
         {
           "name": "In the river.txt",
           "path": "zpevniky/anglicky/In the river.txt",
-          "content": "{title: In the river}\n{artist: Jesus Culture}\n\n{start_of_verse}\nIntro: [F] [Dm7] [Am] [C/E]\n1.[C2/E]There is a [F]river where [Dm]goodness flows\nThere is a [Am]fountain that [C/E]drowns sorrows\nThere is an [F]ocean [Dm]deeper than fear\n[Am]The tide is rising, rising [C/E]\n{end_of_verse}\n\n{start_of_verse}\n2. [C2/E]There is a [F]current stirring [Dm]deep inside\nIt’s over[Am]flowing from the [C/E]heart of God\nThe flood of [F]heaven crashing [Dm]over us\nThe tide is [Am]rising, rising [C/E]\n{end_of_verse}\n\n{start_of_chorus}   \nR: [F]Bursting, [Dm7]bursting\n[Am7]up from the ground [C2/E]we feel it now\n[F]Bursting, [Dm7]bursting \n[Am7]up from the ground [C2/E]we feel it now\n\n[F]We come alive in the river [Dm7]\nWe come [Am7]alive in the river [C2/E]\n[F]We come alive in the river [Dm7]\nWe come [Am7]alive in the river. [C2/E]\n{end_of_chorus}\n\n{start_of_bridge}\nBridge: Break open [F]prison doors [Dm7]\nSet all the [Am7]captives free [C/E]\nSpring up a [F]well, spring up a [Dm7]well\nspring up the [Am7]well in me [C/E]\nNothing can [F]stop this joy [Dm7]\nWe’re dancing [Am7]in the streets [C/E]\nSpring up a [F]well, spring up a [Dm7]well\nspring up the [Am7]well in me [C/E]\n{end_of_bridge}"
+          "content": "{title: In the river}\n{artist: Jesus Culture}\n\n{start_of_verse}\nIntro: [F] [Dm7] [Am] [C/E]\n1.[C2/E]There is a [F]river where [Dm]goodness flows\nThere is a [Am]fountain that [C/E]drowns sorrows\nThere is an [F]ocean [Dm]deeper than fear\n[Am]The tide is rising, rising [C/E]\n{end_of_verse}\n\n{start_of_verse}\n2. [C2/E]There is a [F]current stirring [Dm]deep inside\nIt’s over[Am]flowing from the [C/E]heart of God\nThe flood of [F]heaven crashing [Dm]over us\nThe tide is [Am]rising, rising [C/E]\n{end_of_verse}\n\n{start_of_chorus}   \nR: [F]Bursting, [Dm7]bursting\n[Am7]up from the ground [C2/E]we feel it now\n[F]Bursting, [Dm7]bursting \n[Am7]up from the ground [C2/E]we feel it now\n\n[F]We come alive in the river [Dm7]\nWe come [Am7]alive in the river [C2/E]\n[F]We come alive in the river [Dm7]\nWe come [Am7]alive in the river. [C2/E]\n{end_of_chorus}\n\n{start_of_bridge}\nB: Break open [F]prison doors [Dm7]\nSet all the [Am7]captives free [C/E]\nSpring up a [F]well, spring up a [Dm7]well\nspring up the [Am7]well in me [C/E]\nNothing can [F]stop this joy [Dm7]\nWe’re dancing [Am7]in the streets [C/E]\nSpring up a [F]well, spring up a [Dm7]well\nspring up the [Am7]well in me [C/E]\n{end_of_bridge}"
         },
         {
           "name": "Jesus have it all.txt",
           "path": "zpevniky/anglicky/Jesus have it all.txt",
-          "content": "{title: Jesus have it all}\n{artist: Jeremy Riddle}\n\n{start_of_verse}\nIntro: [Bb] [Dm] [C] [Gm]\n\n1. Jesus have my [F]heart, my will, my soul\nJesus have my [C]hopes, my dreams, my world\nWith joy I lay it [Gm]down, with joy I cast my [Bb]crowns\nJesus have it [F]all\n{end_of_verse}\n\n{start_of_verse}\n2. To You I bring my [F]praise, my lips, my song\nA living sacri[C]fice as one reborn\nYour life is now my [Gm]own, Your will is what I [Bb]want\nJesus have it [F]all\n{end_of_verse}\n\n{start_of_chorus}\nR: Jesus have it [Bb]all, Jesus have it [Dm]all\nTo You belongs the [C]glory\nThe praise of all the [Gm]world\nJesus have it [Bb]all, Jesus have it [Dm]all\nAll blessing and all [C]honor, all majesty and [Gm]awe\nJesus have it [Bb]all ([Dm]Jesus have it [C]all [Gm])\n{end_of_chorus}\n\n{start_of_verse}\n3.Jesus have Your [F]Church, Your love, Your bride\nThe joy for which You [C]freely gave Your life\nRadiant in [Gm]white, washed and puri[Bb]fied\nJesus have us [F]all\n{end_of_verse}\n\n{start_of_verse}\n4. Jesus have Your [F]worth, Your due, Your sum\nThe praise of every [C]nation, tribe and tongue\nLet all that has been [Gm]made, glorify Your [Bb]Name\nJesus have it [F]all\n{end_of_verse}\n\n{start_of_bridge}\nAll my [Bb]days, all my [Dm]life\nHave it [C]all[Gm]\n{end_of_bridge}"
+          "content": "{title: Jesus have it all}\n{artist: Jeremy Riddle}\n\n{start_of_verse}\nIntro: [Bb] [Dm] [C] [Gm]\n\n1. Jesus have my [F]heart, my will, my soul\nJesus have my [C]hopes, my dreams, my world\nWith joy I lay it [Gm]down, with joy I cast my [Bb]crowns\nJesus have it [F]all\n{end_of_verse}\n\n{start_of_verse}\n2. To You I bring my [F]praise, my lips, my song\nA living sacri[C]fice as one reborn\nYour life is now my [Gm]own, Your will is what I [Bb]want\nJesus have it [F]all\n{end_of_verse}\n\n{start_of_chorus}\nR: Jesus have it [Bb]all, Jesus have it [Dm]all\nTo You belongs the [C]glory\nThe praise of all the [Gm]world\nJesus have it [Bb]all, Jesus have it [Dm]all\nAll blessing and all [C]honor, all majesty and [Gm]awe\nJesus have it [Bb]all ([Dm]Jesus have it [C]all [Gm])\n{end_of_chorus}\n\n{start_of_verse}\n3.Jesus have Your [F]Church, Your love, Your bride\nThe joy for which You [C]freely gave Your life\nRadiant in [Gm]white, washed and puri[Bb]fied\nJesus have us [F]all\n{end_of_verse}\n\n{start_of_verse}\n4. Jesus have Your [F]worth, Your due, Your sum\nThe praise of every [C]nation, tribe and tongue\nLet all that has been [Gm]made, glorify Your [Bb]Name\nJesus have it [F]all\n{end_of_verse}\n\n{start_of_bridge}\nB: All my [Bb]days, all my [Dm]life\nHave it [C]all[Gm]\n{end_of_bridge}"
         },
         {
           "name": "Let it rain.txt",
@@ -32,19 +32,14 @@
           "content": "{title: Let it rain}\n{artist: Michael W. Smith}\n\n{start_of_verse}\nLet it [Am]rain\nLet it [F]rain\n[C]Open the flood gates of [G/B]heaven\nLet it [Am]rain\nLet it ra[F]in\n[C]Open the flood gates of [G/B]heaven.\n{end_of_verse}"
         },
         {
-          "name": "Máš teď srdce mé.unfinished",
-          "path": "zpevniky/anglicky/Máš teď srdce mé.unfinished",
-          "content": ""
-        },
-        {
           "name": "One way.txt",
           "path": "zpevniky/anglicky/One way.txt",
-          "content": "{title: One way}\n{artist: Hillsong Worship}\n\n{start_of_verse}\nIntro [C] [Am7] [G] [F]\n \n1.[C] I lay my life down at your feet\n[Am7] 'Coz you're the only one I need\n[G] I turn to you and you were always [F]there\n[C] In troubled times it's you I seek\n[Am] I put you first, that's all I need\n[G] I humble all I am on to [F]you\n{end_of_verse}\n\n{start_of_chorus}\n[C] One way, [G]Jesus\n[Am7] You're the only one that [F]I could live for\n[C] One way, [G]Jesus\n[Am7] You're the only one that [Bb]I could live for \n{end_of_chorus}\n\n{start_of_verse}\n[Am7] [F] [Am7] [F]\n\n[C] You are always, always there\n[Am7] Every how and every where\n[G] Your grace abounds so deeply within [F]me\n[C] You will never ever change\n[Am7] Yesterday, today the same\n[G] Forever 'til forever meets no [F]end\n{end_of_verse}\n\n{start_of_bridge}\n[C]You are the way, the [G]truth and the life\nWe [Am7]live by faith and [F]not by sight            \nFor [Am7]you, we're [G]living all for [F]you\n{end_of_bridge}"
+          "content": "{title: One way}\n{artist: Hillsong Worship}\n\n{start_of_verse}\nIntro [C] [Am7] [G] [F]\n \n1.[C] I lay my life down at your feet\n[Am7] 'Coz you're the only one I need\n[G] I turn to you and you were always [F]there\n[C] In troubled times it's you I seek\n[Am] I put you first, that's all I need\n[G] I humble all I am on to [F]you\n{end_of_verse}\n\n{start_of_chorus}\nR: [C] One way, [G]Jesus\n[Am7] You're the only one that [F]I could live for\n[C] One way, [G]Jesus\n[Am7] You're the only one that [Bb]I could live for \n{end_of_chorus}\n\n{start_of_verse}\n[Am7] [F] [Am7] [F]\n\n2. [C] You are always, always there\n[Am7] Every how and every where\n[G] Your grace abounds so deeply within [F]me\n[C] You will never ever change\n[Am7] Yesterday, today the same\n[G] Forever 'til forever meets no [F]end\n{end_of_verse}\n\n{start_of_bridge}\nB: [C]You are the way, the [G]truth and the life\nWe [Am7]live by faith and [F]not by sight            \nFor [Am7]you, we're [G]living all for [F]you\n{end_of_bridge}"
         },
         {
           "name": "Rescue.txt",
           "path": "zpevniky/anglicky/Rescue.txt",
-          "content": "{title: Rescue}\n{artist: Lauren Diagle}\n\n{start_of_verse}\nIntro [Bb] [F] [C] [Dm]\n1.You are not [Bb]hidden [F]\nThere’s never been a [C]moment\nYou were for[Dm]gotten\nYou are not [Bb]hopeless [F]\nThough you have been [C]broken\nYour innocence [Dm]stolen\n{end_of_verse}\n\n{start_of_prechorus}\nI [Bb]hear you whisper [F/A]underneath your[C] breath [Dm]   \nI [Bb]hear your S-O[F/A]-S, your S-O[C]-S   \n{end_of_prechorus}\n\n{start_of_chorus}\n[F]I will [Fsus/G]send out an army\nto [Dm7]find you in the [Bb]middle of the darkest [Dm7]night \nIt’s true [Bb]I will rescue [F]you   \nI will [Fsus/G]never stop marching\nto [Dm7]reach you in the [Bb]middle of the hardest [Dm7]fight\nIt’s true [Bb]I will rescue [F]you\n{end_of_chorus}\n\n{start_of_verse}\n2. There is no [Bb]distance [F]\nThat can not be [C]covered over and [Dm]over \nYou're not de[Bb]fenseless [F]   \nI’ll be your [C]shelter, I’ll be your [Dm]armor \n{end_of_verse}\n\n{start_of_bridge}\nI [Bb]hear the whisper [F/A] underneath your [C4]breath [C]   \nI [Bb]hear you whisper [F/A] you have nothing [C4]left [C] \n{end_of_bridge}"
+          "content": "{title: Rescue}\n{artist: Lauren Diagle}\n\n{start_of_verse}\nIntro [Bb] [F] [C] [Dm]\n1. You are not [Bb]hidden [F]\nThere’s never been a [C]moment\nYou were for[Dm]gotten\nYou are not [Bb]hopeless [F]\nThough you have been [C]broken\nYour innocence [Dm]stolen\n{end_of_verse}\n\n{start_of_prechorus}\nPre: I [Bb]hear you whisper [F/A]underneath your[C] breath [Dm]   \nI [Bb]hear your S-O[F/A]-S, your S-O[C]-S   \n{end_of_prechorus}\n\n{start_of_chorus}\nR: [F]I will [Fsus/G]send out an army\nto [Dm7]find you in the [Bb]middle of the darkest [Dm7]night \nIt’s true [Bb]I will rescue [F]you   \nI will [Fsus/G]never stop marching\nto [Dm7]reach you in the [Bb]middle of the hardest [Dm7]fight\nIt’s true [Bb]I will rescue [F]you\n{end_of_chorus}\n\n{start_of_verse}\n2. There is no [Bb]distance [F]\nThat can not be [C]covered over and [Dm]over \nYou're not de[Bb]fenseless [F]   \nI’ll be your [C]shelter, I’ll be your [Dm]armor \n{end_of_verse}\n\n{start_of_bridge}\nB: I [Bb]hear the whisper [F/A] underneath your [C4]breath [C]   \nI [Bb]hear you whisper [F/A] you have nothing [C4]left [C] \n{end_of_bridge}"
         },
         {
           "name": "Welcome to the wild kingdom.unfinished",
@@ -54,7 +49,7 @@
         {
           "name": "You say.txt",
           "path": "zpevniky/anglicky/You say.txt",
-          "content": "{title: You say}\n{artist: Lauren Diagle}\n\n{start_of_verse}\nIntro [F] [Am] [Dm] [Bb]\n1. [F]I keep fighting voices in my [Am]mind\nthat say I'm not eno[Dm]ugh, [Bb]\n[F]Every single lie that tells me\n[Am]I will never measure [Dm]up. [Bb]\n[F]Am I more than just the sum of\n[Am]every high and every [Dm]low? [Bb]\nRe[F]mind me once again just who I [Am]am\nBecause I need to kn[Dm]ow [Bb]\n{end_of_verse}\n\n{start_of_chorus}\nYou say I am l[F]oved when I can't feel a t[Am]hing  \nYou say I am s[Dm]trong when I think I am we[Bb]ak\nYou say I am h[F]eld when I am falling s[Am]hort\nAnd when I don't bel[Dm]ong, oh You say I am Yo[Bb]urs\nAnd I be[F]lieve, oh I be[Am]lieve\nWhat You say [Dm]of me, I be[Bb]lieve\n{end_of_chorus}\n\n{start_of_verse}\nThe [F]only thing that matters now\nIs [Am]everything You think of [Dm]me [Bb]   \nIn [F]You I find my worth\nIn You [Am]I find my identi[Dm]ty [Bb]\n{end_of_verse}\n\n{start_of_bridge}\n[F]Taking all I have and now I'm [Am]laying it \nAt Your fe[Dm]et [Bb2] \n[F]You have every failure, God\n[Am]You'll have every victo[Dm]ry [Bb]\n{end_of_bridge}"
+          "content": "{title: You say}\n{artist: Lauren Diagle}\n\n{start_of_verse}\nIntro [F] [Am] [Dm] [Bb]\n1. [F]I keep fighting voices in my [Am]mind\nthat say I'm not eno[Dm]ugh, [Bb]\n[F]Every single lie that tells me\n[Am]I will never measure [Dm]up. [Bb]\n[F]Am I more than just the sum of\n[Am]every high and every [Dm]low? [Bb]\nRe[F]mind me once again just who I [Am]am\nBecause I need to kn[Dm]ow [Bb]\n{end_of_verse}\n\n{start_of_chorus}\nR: You say I am l[F]oved when I can't feel a t[Am]hing  \nYou say I am s[Dm]trong when I think I am we[Bb]ak\nYou say I am h[F]eld when I am falling s[Am]hort\nAnd when I don't bel[Dm]ong, oh You say I am Yo[Bb]urs\nAnd I be[F]lieve, oh I be[Am]lieve\nWhat You say [Dm]of me, I be[Bb]lieve\n{end_of_chorus}\n\n{start_of_verse}\n2. The [F]only thing that matters now\nIs [Am]everything You think of [Dm]me [Bb]   \nIn [F]You I find my worth\nIn You [Am]I find my identi[Dm]ty [Bb]\n{end_of_verse}\n\n{start_of_bridge}\nB: [F]Taking all I have and now I'm [Am]laying it \nAt Your fe[Dm]et [Bb2] \n[F]You have every failure, God\n[Am]You'll have every victo[Dm]ry [Bb]\n{end_of_bridge}"
         }
       ]
     },
@@ -166,17 +161,12 @@
         {
           "name": "Akane mange.txt",
           "path": "zpevniky/main/Akane mange.txt",
-          "content": "{title: Akane mange}\n{artist: ?}\n\n{start_of_verse}\nA[Am]kana mange [Dm]so kamav kai[E] sime bava[Am]lo\nAsis man devla [Dm]nevi puv in[G]evo Jeruza[Am]lem\nAkana bachta[Dm]le roma pa[E]čes amaro [Am]del\nAsis man devla [Dm]kai devla kai[E] si amaro [Am]del\n{end_of_verse}\n\n{start_of_chorus}\nDevla devla dev[Dm]la [G]\nDevla devla [Am]devla\nDevla devla [Dm]devla\nDevla [E]devla devla ku dži[Am]ves\n{end_of_chorus}"
+          "content": "{title: Akane mange}\n{artist: ?}\n\n{start_of_verse}\nA[Am]kana mange [Dm]so kamav kai[E] sime bava[Am]lo\nAsis man devla [Dm]nevi puv in[G]evo Jeruza[Am]lem\nAkana bachta[Dm]le roma pa[E]čes amaro [Am]del\nAsis man devla [Dm]kai devla kai[E] si amaro [Am]del\n{end_of_verse}\n\n{start_of_chorus}\nR: Devla devla dev[Dm]la [G]\nDevla devla [Am]devla\nDevla devla [Dm]devla\nDevla [E]devla devla ku dži[Am]ves\n{end_of_chorus}"
         },
         {
           "name": "Ani smutek ani samota.unfinished",
           "path": "zpevniky/main/Ani smutek ani samota.unfinished",
           "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
-        },
-        {
-          "name": "Áronovské požehnání.unfinished",
-          "path": "zpevniky/main/Áronovské požehnání.unfinished",
-          "content": "{title: Áronské požehnání}\n{artist: ESPÉ}\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_verse}\n\n{end_of_verse}"
         },
         {
           "name": "Ať chvála Bohu je vzdána.txt",
@@ -226,7 +216,7 @@
         {
           "name": "Buď vyvýšen.txt",
           "path": "zpevniky/main/Buď vyvýšen.txt",
-          "content": "{title: Buď vyvýšen}\n{artist: ?}\n\n{start_of_chorus}\nR: Buď vyvý[C]šen, buď vyvýš[Em]en\nPro Tvou [G]slávu buď vyvýš[D]en\n{end_of_chorus}\n\n{start_of_verse }\n1. [Em]Ty jsi Pánem všeho času,\n[C]Ty přinášíš lidem spásu,\n[G]Ty jsi důvod proč zpíváme [D]ke Tvé slávě.\n[C]Ať sestoupí hukot z nebe\n[Em]a rození se Země.\n[G]Přidáme se k písni, která [D]zpívá\n{end_of_verse}\n\n{start_of_verse }\n2. [Em]Ty jsi oheň stravující,\n[C]Ty jsi Otče věčné živý,\n[G]Ty jsi důvod proč žijeme [D]ke Tvé slávě.\n[C]Budeme ta generace\n[Em]která volá Nebe na Zem.\n[G]Přidáme se k písni, která [D]zpívá\n{end_of_verse}\n\n\n{start_of_bridge}\nB: [C]Buď vyvýšen, buď [Em]vyvýšen\n[G]Chvála ať stoupá [D]výš\n{end_of_bridge}"
+          "content": "{title: Buď vyvýšen}\n{artist: Honzíkovi}\n\n{start_of_chorus}\nR: Buď vyvý[C]šen, buď vyvýš[Em]en\nPro Tvou [G]slávu buď vyvýš[D]en\n{end_of_chorus}\n\n{start_of_verse }\n1. [Em]Ty jsi Pánem všeho času,\n[C]Ty přinášíš lidem spásu,\n[G]Ty jsi důvod proč zpíváme [D]ke Tvé slávě.\n[C]Ať sestoupí hukot z nebe\n[Em]a rození se Země.\n[G]Přidáme se k písni, která [D]zpívá\n{end_of_verse}\n\n{start_of_verse }\n2. [Em]Ty jsi oheň stravující,\n[C]Ty jsi Otče věčné živý,\n[G]Ty jsi důvod proč žijeme [D]ke Tvé slávě.\n[C]Budeme ta generace\n[Em]která volá Nebe na Zem.\n[G]Přidáme se k písni, která [D]zpívá\n{end_of_verse}\n\n\n{start_of_bridge}\nB: [C]Buď vyvýšen, buď [Em]vyvýšen\n[G]Chvála ať stoupá [D]výš\n{end_of_bridge}"
         },
         {
           "name": "Bude světlo.unfinished",
@@ -259,9 +249,9 @@
           "content": "{title: Bůh je záštita má}\n{artist: ?}\n\n{start_of_chorus}\nR:  [D7]Bůh je [G]záštita má,\nBůh je [Am]záš[D7]tita [G]má.\nBůh je [G7]záštita [C]má,  \ns ním [G]nemu[D7]sím se [G]bát.\n{end_of_chorus}\n\n{start_of_verse}\n1. [G]Nevím, co mi žítřek tají,\nstrasti [Am]bez kon[D7]ce se [G]zdají,\nMraky [G7]cestu zakrý[C]vají,\nale [G]Bůh je [D7]spása [G]má.\n{end_of_verse}\n\n{start_of_verse}\n2. [G]Každý den od procitnutí\nk nové [Am]honbě [D7]štvát mě [G]nutí,\nnikde [G7]místa k spoči[C]nutí,\njenom v [G]Bohu [D7]najdu [G]mír.\n{end_of_verse}\n\n{start_of_verse}\n3. [G]Kolem svět se rve a plení\nlidské [Am]vztahy [D7]zlato [G]mění,\nBože, [G7]dej, ať v poku[C]šení\nvím, že [G]ty se [D7]staráš [G]sám.\n\n\n\n\n\n"
         },
         {
-          "name": "Bůh silný můj jsi Ty.unfinished",
-          "path": "zpevniky/main/Bůh silný můj jsi Ty.unfinished",
-          "content": ""
+          "name": "Bůh silný můj jsi Ty.txt",
+          "path": "zpevniky/main/Bůh silný můj jsi Ty.txt",
+          "content": "{title: Bůh silný můj jsi Ty}\n{artist: Jitka Najvrtová}\n\n{start_of_verse}\n1. [Em]Bůh silný [D]můj jsi [C]ty, tebe hned v jitře hledám,\n[Em]po tobě [D]žízní duše [C]má i tělo v zemi vypra[Hm]lé,\nabych tě [D]spatřil v slávě [C]tvé, aby tě [D]chválily mé [Em]rty.\n{end_of_verse}\n\n{start_of_verse}\n2. [Em]Abych tě [D]stále vele[C]bil, v tvém jménu ruce pozve[Em]dal,\nabys [D]sytil duši [C]mou a chválila tě ústa má [Hm]má.\nO tobě [D]stále přemý[C]šlím, přilnula [D]k tobě duše [Em]má.\n{end_of_verse}"
         },
         {
           "name": "Bůh za mě zápas dokončí.txt",
@@ -384,9 +374,9 @@
           "content": "{title: Duch a nevěsta}\n{artist: ?}\n\n{start_of_verse}\n1.  Duch a nevěs[Em]ta dí: „Tak jen [Am]pojď“,\nslyšíš-li [D]jej, řekni též: [Em]„ Pojď.“\nA kdo žízeň [C]má, ten ať přijde [Am]též,\nvodu živo[Hm]ta za[H]darmo může [Em]pít.\n{end_of_verse}\n\n{start_of_verse}\n2.  Halelu[Em]ja, tak Pána [Am]chval,\nhalelu[D]ja, tak Pána [Em]chval,\nhalelu[C]ja, tak Pána [Am]chval,\nhalelu[Em]ja, tak [H]Pána svého [Em]chval!\n{end_of_verse}"
         },
         {
-          "name": "Duchu svatý jsi tu vítaný.unfinished",
-          "path": "zpevniky/main/Duchu svatý jsi tu vítaný.unfinished",
-          "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
+          "name": "Duchu svatý jsi tu vítaný.txt",
+          "path": "zpevniky/main/Duchu svatý jsi tu vítaný.txt",
+          "content": "{title: Duchu svatý jsi tu vítaný}\n{artist: Godknows}\n\n{start_of_verse}\n1. [C]Nic mě neláká víc než blíže [F]stát,\nnic se nevyrovná tomu, co jsi nám [C]dal\nve tvé blízko[F]s‍‍ti.\n\n[C]Já poznám a vím, tvá láska je [F]l‍‍ék,\nv ní svobodný jsem a viny zba‍‍[C]ven\nve tvé blízko[F]s‍‍ti.\n{end_of_verse}\n\n{start_of_chorus}\nR: [C]Duchu Svatý, jsi tu vítaný!\nPřijď, [F]vtáhni nás tam, [Dm]kde vládneš ty.\nTvoje [C]sláva přichází dnes s touhou k nám,\nzapal [F]láskou k tobě [Dm]naše srdce [C]v nás.\n{end_of_chorus}\n\n{start_of_bridge}\nB: [C]Ať stále víc před tebou bázeň mám.\n[F]Dnes toužím zažívat, jaký [Dm]dobrý Bůh jsi k nám.\n{end_of_bridge}"
         },
         {
           "name": "El Šaddaj.txt",
@@ -509,9 +499,9 @@
           "content": "{title: Jak úžasný Bůh}\n{artist: Chris Tomlin}\n\n{start_of_verse}\n1.  [G]V slávě nádherný, [Em]Král je důstojný,\nať jásá celá [C2]zem, ať jásá celá [D2]zem.[D]\n[G]V záři přebývá, [Em]tma se ukrývá\na noc mění se v [C2]den, noc mění se v [D2]den.[D]\n{end_of_verse}\n\n{start_of_chorus}\nR:  Jak [G]úžasný Bůh, zpívej se mnou,\n[Em]úžasný Bůh, ať každý ví,\njak [Cmaj7]úžasný [D]je náš [G]Bůh.\n{end_of_chorus}\n\n{start_of_verse}\n2.  [G]Král je odvěký, [Em]čas mu náleží,\nje počátek i [C2]cíl, počátek i [D2]cíl.[D]\n[G]Ve třech svatý Bůh, [Em]Otec, Syn a Duch,\nhle, beránek je [C2]Král, Lev z Judy, mocný [D2]Pán.[D]\n{end_of_verse}\n\n{start_of_bridge}\nB:  [G]Nad jmény jméno zní,\n[Em7]hodné chvále ní\nv mém [Cmaj7]srdci zní:\njak [D2]úžasný [G]Bůh.\n{end_of_bridge}"
         },
         {
-          "name": "Jak vzduch, co dýchat smím.unfinished",
-          "path": "zpevniky/main/Jak vzduch, co dýchat smím.unfinished",
-          "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
+          "name": "Jak vzduch, co dýchat smím.txt",
+          "path": "zpevniky/main/Jak vzduch, co dýchat smím.txt",
+          "content": "{title: Jak vzduch, co dýchat smím}\n{artist: Tomáš Coufal}\n\n{start_of_verse}\n1. [A]Jak vzduch, co [D]dýchat smím,[A]\nJak vzduch, co [D]dýchat smím,[A]\njsi [E]stále [F#m]blízko,[E]\n[D]vždyť Tvůj [F#m]jsem chrám.[E]\n{end_of_verse}\n\n{start_of_verse}\n2. [A]Jak chléb, co [D]sílu dá,[A]\njak chléb, co [D]sílu dá,[A]\ntak [E]tím, co [F#m]říkáš,[E]\n[D]sytíš [F#m]mne sám.[E]\n{end_of_verse}\n\n{start_of_chorus}\nR: /: A [A]já[E][F#m] [E]po Tobě [D]toužím.[F#m] [E]\nA [A]já[E][F#m] [E]bez Tebe [D]bloudím.[F#m] [Esus4][E] :/[A]\n{end_of_chorus}"
         },
         {
           "name": "Je dokonáno.txt",
@@ -551,7 +541,7 @@
         {
           "name": "Ježíš, Boží Syn.unfinished",
           "path": "zpevniky/main/Ježíš, Boží Syn.unfinished",
-          "content": ""
+          "content": "{title: Ježíš, Boží Syn}\n{artist: Jiří Jelínek}\n\n\n\n{start_of_chorus}\nR: Ježíš, Boží syn,\nJežíš, mě zbavil vin.\nJežíš, Boží syn,\nJežíš, mě zbavil vin.\n{end_of_chorus}\n\n{start_of_verse}\n1. Ježíš je má skála,\nnebe je můj dům,\nmá chvála zní k nebesům.\n{end_of_verse}\n\n{start_of_verse}\n2. Jemu patří sláva, \njemu patří dík,\nmá chvála za spasení.\n{end_of_verse}"
         },
         {
           "name": "Ježíš, Ježíš je Pán.txt",
@@ -611,7 +601,7 @@
         {
           "name": "Kdo jsem já.unfinished",
           "path": "zpevniky/main/Kdo jsem já.unfinished",
-          "content": ""
+          "content": "{title: Kdo jsem já}\n{artist: Jiří Jelínek}\n\n{start_of_verse}\n1. Kdo jsem já, že by celé země Pán\nchtěl moje jméno znát\na cítit bolest mou?\nKdo jsem já, že by ta nejjasnější z hvězd\nchtěla svítit u mých cest\npro mé srdce bloudící?\n{end_of_verse}\n\n{start_of_prechorus}\nPre: To vše není tím, kdo jsem,\nale tím, cos udělal.\nNe že já bych něco dal,\npravý důvod jsi Ty sám.\n{end_of_prechorus}\n\n{start_of_chorus}\nR: Jsem květ, co barvu rychle ztrácí,\ndnes tu je, a zítra není.\nJsem vlnou v oceánu, větrem hnaný dým.\nJá vím, že slyšíš, když Tě volám,\nPane, chytáš mě, když padám,\nTys mi pověděl kdo jsem,\nže jsem Tvůj, že jsem Tvůj.\n{end_of_chorus}\n\n{start_of_verse}\n2. Kdo jsem já, že mi ten, kdo zná můj hřích,\nvždy dává lásku svou\na pomáhá mi vstát?\nKdo jsem já, že hlas, co moři poručil,\nmě volá skrze déšť\na tiší bouři mou?\n{end_of_verse}\n\n{start_of_bridge}\nC: Vždyť jsem Tvůj, vždyť jsem Tvůj.\nKoho se bát, koho se bát,\nkdyž jsem Tvůj, když jsem Tvůj.\n{end_of_bridge}"
         },
         {
           "name": "Kdo na kolenou klečí.txt",
@@ -626,12 +616,12 @@
         {
           "name": "Když Bůh řekl Abrháme.unfinished",
           "path": "zpevniky/main/Když Bůh řekl Abrháme.unfinished",
-          "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
+          "content": "{title: Když Bůh řekl Abrháme}\n{artist: Bob Fliedr}\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
         },
         {
-          "name": "Králi můj, Tebe hledám.unfinished",
-          "path": "zpevniky/main/Králi můj, Tebe hledám.unfinished",
-          "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
+          "name": "Králi můj, Tebe hledám.txt",
+          "path": "zpevniky/main/Králi můj, Tebe hledám.txt",
+          "content": "{title: Králi můj, Tebe hledám}\n{artist: Karel Řežábek}\n\n{start_of_verse}\n1. [Am7]Králi můj, Tebe [Fmaj7]hledám,\n[G9]v tichosti o slovu Tvém rozjí[C]mám[E7].\n[Am]Jako jelen dychtí po čistých [Fmaj7]vodách,\n[G9]po Tobě, po vodě Tvé žízeň [C]mám[E7].\n{end_of_verse}\n\n{start_of_chorus}\nR: [Fmaj7]Proč se tak[G9] rmoutíš,[Em7] duše[Am]má?\n[Fmaj7]Proč ve mně úzkostně st[G9]énáš[C], duše [E7]má?\n[Fmaj7]Na Boha [G9]čekej,[Em7] duše[Am]má,\n[Fmaj7]opět jen Jemu, své s[G9]páse[C], chválu [E7]vzdám.\n{end_of_chorus}\n\n{start_of_verse}\n2. [Am7]Kéž světlo Tvé, Bože, [Fmaj7]vidím.\n[G9]Když nevím, kudy mám jít, veď mě [C]dál[E7],\n[Am]Až před příbytek Tvůj, kde mě [Fmaj7]čekáš,\n[G9]tam opět radost a mír nalé[C]zám[E7].\n{end_of_verse}"
         },
         {
           "name": "Králů Král.txt",
@@ -646,7 +636,7 @@
         {
           "name": "Křídla holubice.unfinished",
           "path": "zpevniky/main/Křídla holubice.unfinished",
-          "content": ""
+          "content": "{title: Křídla holubice}\n{artist: Karel Řežábek}\n\n{start_of_verse}\n\n{end_of_verse}\n\n{start_of_chorus}\n\n{end_of_chorus}\n\n{start_of_bridge}\n\n{end_of_bridge}"
         },
         {
           "name": "Kristus kraluje.txt",
@@ -656,7 +646,7 @@
         {
           "name": "Lajlaj důdap dabyty dam.unfinished",
           "path": "zpevniky/main/Lajlaj důdap dabyty dam.unfinished",
-          "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
+          "content": "{title: }\n{artist: }\n\n{start_of_chorus}\nR: /:[C]Lajlaj [Dm]důdap tabidy[G]bam\nlajlaj [C]dů laj [Am]dý.\nLajlaj [Dm]důdap tabidy[G]bam\nlajlaj [F]dý. [C] :/\n{end_of_chorus}\n\n{start_of_verse}\n1. Na ces[Am]tách před ča[E7]sem\nPána [C]cest potkal [D7]jsem,\nzrovna [Dm]hnízdil ve mně [G]smutek\na [F]žralo napě[C]tí.\nNa ces[Am]tách před ča[E7]sem\nPána [C]cest potkal [D7]jsem,\nřekl: „[Dm]Víš, co lidem [G]schází?“\nA [F]spustil vzápě[C]tí:\n{end_of_verse}\n\n{start_of_verse}\n2. Tkanič[Am]ky kurá[E7]že\npísnič[C]ka rozvá[D7]že,\nk nebe[Dm]skýmu tele[G]fonu\n[F]připne novej [C]drát.\nTkanič[Am]ky kurá[E7]že\npísnič[C]ka rozvá[D7]že,\ntak se [Dm]nenechte víc [G]prosit\na [F]zkuste zazpí[C]vat!\n{end_of_verse}\n\n{start_of_verse}\n3. Tleská[Am]ní, dupá[E7]ní,\nz konče[C]tin vyhá[D7]ní,\nvšechno [Dm]nepříjemný [G]revma\na [F]nepříjemnej [C]chlad.\nTleská[Am]ní, dupá[E7]ní,\nz konče[C]tin vyhá[D7]ní,\nrůzný [Dm]zápecnický [G]choutky.\nTak [F]zkuste zatles[C]kat!\n{end_of_verse}\n\n{start_of_verse}\n4. Tleská[Am]ní, dupá[E7]ní,\nz konče[C]tin vyhá[D7]ní,\nvšechno [Dm]nepříjemný [G]revma\na [F]nepříjemnej [C]chlad.\nTleská[Am]ní, dupá[E7]ní,\nz konče[C]tin vyhá[D7]ní,\nrůzný [Dm]zápecnický [G]choutky.\nTak [F]zkuste zadu[C]pat!\n{end_of_verse}"
         },
         {
           "name": "Láska Tvá na všech místech září.unfinished",
@@ -682,6 +672,11 @@
           "name": "Maranatha.txt",
           "path": "zpevniky/main/Maranatha.txt",
           "content": "{title: Maranatha}\n{artist: Karel Řežábek}\n\n{start_of_chorus}\nR: [D]Ma[C]rana[D]tha, [C] [D]ma[C]rana[D]tha!\n{end_of_chorus}\n\n{start_of_verse}\n1. [G]Přijď [Em]za svou [G]nevěstou, [Em]\nhoří [G]radostí, [C] naslou[G]chá.[C] \n[G]Čeká [Em] v šatech [G]svatebních, [Em]\nnávrat [G]Tvůj [C] vyhlí[G]ží. [C] \n{end_of_verse}\n\n{start_of_verse}\n2. [G]Přijď [Em] do své [G]zahrady, [Em]\nona [G]pro Tebe [C] rozkvé[G]tá. [C] \n[G]Ochutnej [Em] její [G]ovoce, [Em]\nprávě [G]na stromech [C] dozrá[G]vá.[C]\n{end_of_verse}"
+        },
+        {
+          "name": "Máš teď srdce mé.unfinished",
+          "path": "zpevniky/main/Máš teď srdce mé.unfinished",
+          "content": ""
         },
         {
           "name": "Masky.txt",
@@ -914,9 +909,9 @@
           "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
         },
         {
-          "name": "Roztáhni křídla a leť.unfinished",
-          "path": "zpevniky/main/Roztáhni křídla a leť.unfinished",
-          "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
+          "name": "Roztáhni křídla a leť.txt",
+          "path": "zpevniky/main/Roztáhni křídla a leť.txt",
+          "content": "{title: Roztáhni křídla a leť}\n{artist: Bob Fliedr}\n\n{start_of_verse}\n([Hm7]Roztáhni křídla a leť naplno.\n[E7]Roztáhni křídla a leť naplno.)\n\n1. Jó, to se řekne: \"roztáhni křídla a leť!\"\n-\nJeden má moc práce,\ndruhý málo času,\ntřetí rodinné důvody,\nčtvrtý subjektivní potíže,\npátého píchá pod lopatkou,\nšestý vyletěl od zkoušky\n- docent mu tam zastřihl křidýlka,\nsedmý má už všeho dost.\nAle pro všechny platí to slovo:\n\"Naplno roztáhni křídla a leť!\"\n{end_of_verse}\n\n{start_of_chorus}\n[G]Pán [C]zve tě výš a [D]výš,\n[Hm7]zve tě výš a [G]výš,\n[C]zve tě výš a [F]výš!\n[G]S Ním [C]závrať necí[D]tíš,\n[Hm7]závrať ne[G]cítíš,\n[C]závrať ne[F]cítíš.\n{end_of_chorus}\n\n{start_of_verse}\n2. Když ono vysezený hnízdečko\nje vysezený hnízdečko.\nJe v něm pohodlí a bezpečí,\nzázemí a závětří,\ntatínek a maminka,\nzkrátka celá rodinka,\nbedýnka s obrázky,\nv ledničce klobásky\na v ložnici - vyhřátá postýlka.\nA navzdory všemu slyšíš:\n\"Naplno roztáhni křídla a leť!\"\n\n{end_of_verse}\n\n{start_of_verse}\n3. Seber svou odvahu, svůj strach,\nsvou povahu, své ááách,\nzvedni křídlo pravý,\nzvedni křídlo levý,\npěkně se nadechni,\nhezky se uvolni,\nmáš-li závrať, zavři oči,\nnohy švihnou, hop a skočíš\ndo Božího prostoru.\nA pak jen máváš, máváš\nmáváš, máváš, máváš, máváš...\n{end_of_verse}"
         },
         {
           "name": "S každým trápením.unfinished",
@@ -1290,6 +1285,11 @@
           "content": "{title: }\n{artist: Heartbeat}\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
         },
         {
+          "name": "Áronovské požehnání.unfinished",
+          "path": "zpevniky/slovensky/Áronovské požehnání.unfinished",
+          "content": "{title: Áronské požehnání}\n{artist: ESPÉ}\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_verse}\n\n{end_of_verse}"
+        },
+        {
           "name": "Jedine miesto.unfinished",
           "path": "zpevniky/slovensky/Jedine miesto.unfinished",
           "content": "{title: }\n{artist: }\n\n{start_of_verse}\n{end_of_verse}\n\n{start_of_chorus}\n{end_of_chorus}\n\n{start_of_bridge}\n{end_of_bridge}"
@@ -1322,7 +1322,7 @@
         {
           "name": "Nekonečná láska.txt",
           "path": "zpevniky/slovensky/Nekonečná láska.txt",
-          "content": "{title: Nekonečná láska - Reckless love}\n{artist: Július Slovák - Cory Asbury}\n\n{start_of_verse}\n1. [Emi]Skôr než uzrel som sv[D]et,\nty spieval si n[C]ado mnou\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n[Emi]Skôr než dýchať som sm[D]el,\nvdýchol si ži[C]vot svoj\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n{end_of_verse}\n\n{start_of_verse}\n2.  [Emi]Skôr než tvojim som b[D]ol,\no mňa si z[C]ápasil\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n[Emi]Keď slabý som b[D]ol,\nty za mňa si z[C]aplatil\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n{end_of_verse}\n\n{start_of_chorus}\nR: O ty m[Emi]ocná, večná n[D]ekonečná\nl[C]áska Otca k n[G]ám\nTy op[Emi]ustíš stáda, n[D]eprestávaš\nk[C]ým nenájdeš m[G]a\nNedá sa k[Emi]úpiť, nedá zasl[D]úžiť,\nstále d[C]ávaš seba v[G]iac.\nO ty m[Emi]ocná, večná, n[D]ekonečná\nl[C]áska Otca k n[G]ám\n{end_of_chorus}\n\n{start_of_bridge}\nB:  [Emi]Nie je tma čo neprež[D]iariš\nVrch ktorý nezd[C]oláš\nTak chceš ma n[G]ájsť\n[Emi]Nie je múr ktorý nezv[D]alíš\nKlam čo neodzbr[C]ojíš\nTak chceš ma n[G]ájsť\n{end_of_bridge}\n\n{start_of_verse}\n[Verse 1]\nBefore I spoke a word, You were singing over me\nYou have been so, so good to me\nBefore I took a breath, You breathed Your life in me\nYou have been so, so kind to me\n\n[Verse 2]\nWhen I was Your foe, still Your love fought for me\nYou have been so, so good to me\nWhen I felt no worth, You paid it all for me\nYou have been so, so kind to me\n\n[Chorus]\nOh, the overwhelming, never-ending, reckless love of God\nOh, it chases me down, fights 'til I'm found, leaves the ninety-nine\nI couldn't earn it, and I don't deserve it, still, You give Yourself away\nOh, the overwhelming, never-ending, reckless love of God, yeah\n\n[Bridge]\nThere's no shadow You won't light up\nMountain You won't climb up, coming after me\nThere's no wall You won't kick down\nLie You won't tear down, coming after me\n{end_of_verse}"
+          "content": "{title: Nekonečná láska - Reckless love}\n{artist: Július Slovák - Cory Asbury}\n\n{start_of_verse}\n1. [Emi]Skôr než uzrel som sv[D]et,\nty spieval si n[C]ado mnou\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n[Emi]Skôr než dýchať som sm[D]el,\nvdýchol si ži[C]vot svoj\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n{end_of_verse}\n\n{start_of_verse}\n2.  [Emi]Skôr než tvojim som b[D]ol,\no mňa si z[C]ápasil\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n[Emi]Keď slabý som b[D]ol,\nty za mňa si z[C]aplatil\n[Emi]Vždy si bol k[D]u mne tak láskav[C]ý\n{end_of_verse}\n\n{start_of_chorus}\nR: O ty m[Emi]ocná, večná n[D]ekonečná\nl[C]áska Otca k n[G]ám\nTy op[Emi]ustíš stáda, n[D]eprestávaš\nk[C]ým nenájdeš m[G]a\nNedá sa k[Emi]úpiť, nedá zasl[D]úžiť,\nstále d[C]ávaš seba v[G]iac.\nO ty m[Emi]ocná, večná, n[D]ekonečná\nl[C]áska Otca k n[G]ám\n{end_of_chorus}\n\n{start_of_bridge}\nB:  [Emi]Nie je tma čo neprež[D]iariš\nVrch ktorý nezd[C]oláš\nTak chceš ma n[G]ájsť\n[Emi]Nie je múr ktorý nezv[D]alíš\nKlam čo neodzbr[C]ojíš\nTak chceš ma n[G]ájsť\n{end_of_bridge}\n\n{start_of_verse}\n[Verse 1]Before I spoke a word, You were singing over me\nYou have been so, so good to me\nBefore I took a breath, You breathed Your life in me\nYou have been so, so kind to me\n\n[Verse 2]When I was Your foe, still Your love fought for me\nYou have been so, so good to me\nWhen I felt no worth, You paid it all for me\nYou have been so, so kind to me\n\n[Chorus]Oh, the overwhelming, never-ending, reckless love of God\nOh, it chases me down, fights 'til I'm found, leaves the ninety-nine\nI couldn't earn it, and I don't deserve it, still, You give Yourself away\nOh, the overwhelming, never-ending, reckless love of God, yeah\n\n[Bridge]There's no shadow You won't light up\nMountain You won't climb up, coming after me\nThere's no wall You won't kick down\nLie You won't tear down, coming after me\n{end_of_verse}"
         },
         {
           "name": "Oblečiem si chválu.unfinished",
@@ -1393,7 +1393,7 @@
         {
           "name": "Fíkovník.txt",
           "path": "zpevniky/zpěvník dětský/Fíkovník.txt",
-          "content": "{title: Fíkovník}\n{artist: Bob Fliedr}\n\n{start_of_verse}\n1.  Celej [C]rok jsem u motyky [G7]vohnutej jak [C]paragraf,\nabych sklidil dobrý fíky, [E]dobrý fíky, [Am]žádnej blaf.\n[F]Voko[C]pávám [G]pravidelně [C]fíkovník,\n[F]voče[C]kávám, [D7]až uzraje [G7]první fík,\n[F]vočekávám, [C]až uzraje [G7]první [C]fík![Em]\n\n[Am]A měsíce jdou a [Dm]jdou, [Am]co je s tou mou úro[Dm]dou?  \n[Am]Sousedi už [Dm]sklidi[Am]li, [D7]a mě fíky [G7]zradily...\n[F]Tolik [C]práce, [G7]tolik času, [C]žádnej fík,\n[F]vytrh[C]nout mám [D7]neúrodnej [G7]fíkovník?\n[F]Počkám ještě, [C]snad se vzchopí, [G7]nač ten [C]křik?\n{end_of_verse}\n\n{start_of_verse}\n2.  Druhej rok jsem u motyky...\n{end_of_verse}\n\n{start_of_verse}\n3.  Třetí rok jsem u motyky...\n{end_of_verse}\n\n{comment: Recitativ}\n- Hej vinaři, pojď sem!\n- Ano, pane.\n- Co to vidím na mé vinici za podivný fíkovník? Rodí vůbec, vinaři?\n- Nerodí, pane. Už po tři léta ani fík.\n- A k čemu ho tu, chlape jeden, pořád ještě držíš?\n- Ten fíkovník má, Pane, lidské jméno...\n- Vytrhni ho, vinaři, vždyť jen kazí zem!\n- Dej mu, Pane, ještě šanci, okopám a pohnojím ho\na když ani pak ovoce nevydá, dám ho klidně porazit...\n- No dobrá, tedy počkáme na příští rok...\n\n{start_of_verse}\n4.  Čtvrtej rok jsem u motyky...\n{end_of_verse}\n\n\n\n"
+          "content": "{title: Fíkovník}\n{artist: Bob Fliedr}\n\n{start_of_verse}\n1.  Celej [C]rok jsem u motyky [G7]vohnutej jak [C]paragraf,\nabych sklidil dobrý fíky, [E]dobrý fíky, [Am]žádnej blaf.\n[F]Voko[C]pávám [G]pravidelně [C]fíkovník,\n[F]voče[C]kávám, [D7]až uzraje [G7]první fík,\n[F]vočekávám, [C]až uzraje [G7]první [C]fík![Em]\n\nR: [Am]A měsíce jdou a [Dm]jdou, [Am]co je s tou mou úro[Dm]dou?  \n[Am]Sousedi už [Dm]sklidi[Am]li, [D7]a mě fíky [G7]zradily...\n[F]Tolik [C]práce, [G7]tolik času, [C]žádnej fík,\n[F]vytrh[C]nout mám [D7]neúrodnej [G7]fíkovník?\n[F]Počkám ještě, [C]snad se vzchopí, [G7]nač ten [C]křik?\n{end_of_verse}\n\n{start_of_verse}\n2.  Druhej rok jsem u motyky...\n{end_of_verse}\n\n{start_of_verse}\n3.  Třetí rok jsem u motyky...\n{end_of_verse}\n\n{comment: Recitativ}\n- Hej vinaři, pojď sem!\n- Ano, pane.\n- Co to vidím na mé vinici za podivný fíkovník? Rodí vůbec, vinaři?\n- Nerodí, pane. Už po tři léta ani fík.\n- A k čemu ho tu, chlape jeden, pořád ještě držíš?\n- Ten fíkovník má, Pane, lidské jméno...\n- Vytrhni ho, vinaři, vždyť jen kazí zem!\n- Dej mu, Pane, ještě šanci, okopám a pohnojím ho\na když ani pak ovoce nevydá, dám ho klidně porazit...\n- No dobrá, tedy počkáme na příští rok...\n\n{start_of_verse}\n4.  Čtvrtej rok jsem u motyky...\n{end_of_verse}\n\n\n\n"
         },
         {
           "name": "Hlava, ramena.txt",
@@ -1408,12 +1408,12 @@
         {
           "name": "Kde bydlí Bůh.txt",
           "path": "zpevniky/zpěvník dětský/Kde bydlí Bůh.txt",
-          "content": "{title: Kde bydlí Bůh}\n{artist: KSP Music}\n\n{start_of_verse}\n[C] Kde bydlí [G]Bůh? [Am] Kde bydlí [F]Bůh?\n[C] A kde přebý[G]vá [Am]Jeho svatý [F]duch?\n{end_of_verse}\n\n{start_of_prechorus}\n[C]Vznáší se v nebe[G]sích? Má domek z papí[Am]ru?\nA nebo na ho[F]rách svůj srub na mí[C]ru?\nPalác se zahra[G]dou s výhledem na mo[Am]ře, kde si klidně [F]žije?\n{end_of_prechorus}\n\n{start_of_chorus}\nBůh je [C]tam, kde jsi [G]ty,\nnedělá s tím [Am]žádný draho[F]ty.\nKdo ho pozve [C]dál u toho se zaby[G]dlí\na chce s ním [F]prožít první [G]poslední.\n{end_of_chorus}"
+          "content": "{title: Kde bydlí Bůh}\n{artist: KSP Music}\n\n{start_of_verse}\n[C] Kde bydlí [G]Bůh? [Am] Kde bydlí [F]Bůh?\n[C] A kde přebý[G]vá [Am]Jeho svatý [F]duch?\n{end_of_verse}\n\n{start_of_prechorus}\nPre: [C]Vznáší se v nebe[G]sích? Má domek z papí[Am]ru?\nA nebo na ho[F]rách svůj srub na mí[C]ru?\nPalác se zahra[G]dou s výhledem na mo[Am]ře, kde si klidně [F]žije?\n{end_of_prechorus}\n\n{start_of_chorus}\nR: Bůh je [C]tam, kde jsi [G]ty,\nnedělá s tím [Am]žádný draho[F]ty.\nKdo ho pozve [C]dál u toho se zaby[G]dlí\na chce s ním [F]prožít první [G]poslední.\n{end_of_chorus}"
         },
         {
           "name": "Kdo je pánem džungle.txt",
           "path": "zpevniky/zpěvník dětský/Kdo je pánem džungle.txt",
-          "content": "{title: Kdo je pánem džungle}\n{artist: ?}\n\n{start_of_verse}\n1.  [D]Kdo je pánem džungle? (hu, hu)\nKdo pánem [A]vody? (bubla, bubla, bubla)\nKdo je pánem vesmíru?\nA kdo pánem [D]mým?\n\nPovím vám to J-E-Ž-Í-Š!\nOn je Pánem [A]mým.\nOn je Pánem vesmíru,\ndžungle i [D]vody. (bubla, bubla, bubla, žbluňk)\n{end_of_verse}"
+          "content": "{title: Kdo je pánem džungle}\n{artist: ?}\n\n{start_of_verse}\n[D]Kdo je pánem džungle? (hu, hu)\nKdo pánem [A]vody? (bubla, bubla, bubla)\nKdo je pánem vesmíru?\nA kdo pánem [D]mým?\n\nPovím vám to J-E-Ž-Í-Š!\nOn je Pánem [A]mým.\nOn je Pánem vesmíru,\ndžungle i [D]vody. (bubla, bubla, bubla, žbluňk)\n{end_of_verse}"
         },
         {
           "name": "Kdo jsi spasen.txt",
@@ -1438,7 +1438,7 @@
         {
           "name": "Měsíček.txt",
           "path": "zpevniky/zpěvník dětský/Měsíček.txt",
-          "content": "{title: Měsíček}\n{artist: Tim2,2}\n\n{start_of_verse}\nUž [C]měsíček [G]dívá se [C]k nám\na [F]šeptá, že [C]čas je jít [G]spát\nDobrou [C]noc, [F]sladce [Am]spi,\ndobrou [F]noc, [G]Bůh tě má [C]rád.\n{end_of_verse}\n\n{start_of_verse}\nTam [C]hvězdička [G]pomrká[C]vá:\ntak [F]zavři už [C]očička [G]svá!\nDobrou [C]noc, [F]sladce [Am]spi,\ndobrou [F]noc, [G]Bůh tě má [C]rád.\n{end_of_verse}\n\n{start_of_verse}\nNech [C]něco si [G]hezkého [C]zdát,\nanděl [F]stráž bude [C]u tebe [G]stát.\nDobrou [C]noc, [F]sladce [Am]spi,\ndobrou [F]noc, [G]Bůh tě má [C]rád.\n{end_of_verse}"
+          "content": "{title: Měsíček}\n{artist: Tim2,2}\n\n{start_of_verse}\n1. Už [C]měsíček [G]dívá se [C]k nám\na [F]šeptá, že [C]čas je jít [G]spát\nDobrou [C]noc, [F]sladce [Am]spi,\ndobrou [F]noc, [G]Bůh tě má [C]rád.\n{end_of_verse}\n\n{start_of_verse}\n2. Tam [C]hvězdička [G]pomrká[C]vá:\ntak [F]zavři už [C]očička [G]svá!\nDobrou [C]noc, [F]sladce [Am]spi,\ndobrou [F]noc, [G]Bůh tě má [C]rád.\n{end_of_verse}\n\n{start_of_verse}\n3. Nech [C]něco si [G]hezkého [C]zdát,\nanděl [F]stráž bude [C]u tebe [G]stát.\nDobrou [C]noc, [F]sladce [Am]spi,\ndobrou [F]noc, [G]Bůh tě má [C]rád.\n{end_of_verse}"
         },
         {
           "name": "Moje malé světélko.txt",
@@ -1473,7 +1473,7 @@
         {
           "name": "V zeleném háječku.txt",
           "path": "zpevniky/zpěvník dětský/V zeleném háječku.txt",
-          "content": "{title: V zeleném háječku}\n{artist: ?}\n\n{start_of_verse}\n[C]V zeleném háječku se[G]děla kukač[C]ka,\nz vysokého smrčku vo[G]lala na špa[C]čka:\nKuku kuku ku[G]ku-kuru-ku[C]ku kuku\nkuku kuku ku[G]ku-kuru-ku[C]ku\n{end_of_verse}\n\n{start_of_verse}\n[C]Po cestě kráčel [G]šedivý o[C]sel,\nžvíkaje bodlák, [G]takto k sobě [C]děl:\nÍá íá í[G]á-íá-i[C]á íá\níá íá í[G]á-íá í[C]á\n{end_of_verse}\n\n{start_of_verse}\n[C]Po cestě kráčel [G]dlouhonohý [C]čáp,\ndo každé louže [G]jedou nohou [C]šláp.\nKlap-klap klap-klap klap-[G]klap-klap-klap-klap-[C]klap klap-klap\nklap-klap klap-klap klap-[G]klap-klap-klap-klap-[C]klap \n{end_of_verse}\n\n{start_of_verse}\n[C]Na kraji rybníčka se[G]děla rosni[C]čka\na jak stoupal tlak, tak [G]kvákala jen [C]tak.\nKva-kvak kva-kvak kva-[G]kva-kva-kva-kva-[C]kvak kva-kvak\nkva-kvak kva-kvak kva-[G]kva-kva-kva-kva-[C]kvak \n{end_of_verse}\n\n{start_of_verse}\n[C]Náš Pán Bůh stvořil [G]celou naši [C]zem.\nMy za zvířátka [G]pěkně děku[C]jem.\nAmen amen a[G]men-amen-a[C]men amen\nAmen amen a[G]men-amen-a[C]men\n{end_of_verse}"
+          "content": "{title: V zeleném háječku}\n{artist: ?}\n\n{start_of_verse}\n1. [C]V zeleném háječku se[G]děla kukač[C]ka,\nz vysokého smrčku vo[G]lala na špa[C]čka:\nKuku kuku ku[G]ku-kuru-ku[C]ku kuku\nkuku kuku ku[G]ku-kuru-ku[C]ku\n{end_of_verse}\n\n{start_of_verse}\n2. [C]Po cestě kráčel [G]šedivý o[C]sel,\nžvíkaje bodlák, [G]takto k sobě [C]děl:\nÍá íá í[G]á-íá-i[C]á íá\níá íá í[G]á-íá í[C]á\n{end_of_verse}\n\n{start_of_verse}\n3. [C]Po cestě kráčel [G]dlouhonohý [C]čáp,\ndo každé louže [G]jedou nohou [C]šláp.\nKlap-klap klap-klap klap-[G]klap-klap-klap-klap-[C]klap klap-klap\nklap-klap klap-klap klap-[G]klap-klap-klap-klap-[C]klap \n{end_of_verse}\n\n{start_of_verse}\n4. [C]Na kraji rybníčka se[G]děla rosni[C]čka\na jak stoupal tlak, tak [G]kvákala jen [C]tak.\nKva-kvak kva-kvak kva-[G]kva-kva-kva-kva-[C]kvak kva-kvak\nkva-kvak kva-kvak kva-[G]kva-kva-kva-kva-[C]kvak \n{end_of_verse}\n\n{start_of_verse}\n5. [C]Náš Pán Bůh stvořil [G]celou naši [C]zem.\nMy za zvířátka [G]pěkně děku[C]jem.\nAmen amen a[G]men-amen-a[C]men amen\nAmen amen a[G]men-amen-a[C]men\n{end_of_verse}"
         }
       ]
     },

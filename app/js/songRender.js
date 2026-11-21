@@ -31,7 +31,7 @@ function fitSongForPrint(renderer) {
 class Song {
   constructor(content) {
     this.content = content;
-    this.title = content.match(/\{title:\s*([^}]+)\}/i)?.[1].trim() ?? ""; //whatever this means
+    this.title = content.match(/\{title:\s*([^}]+)\}/i)?.[1].trim() ?? ""; //whatever this means. Made by AI
 
     this.renderer = document.createElement("chordpro-renderer");
     this.renderer.content = content;
